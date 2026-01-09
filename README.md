@@ -8,8 +8,7 @@ HEAD
 
 # Gmail-Cleanup-Tool
 ## I wrote a Python script to automate the process of deleting 18k emails using the Gmail API.
-#### This project was my introduction to working with Google Cloud, OAuth2 authentication, and managing large datasets via APIs.
- c569f2e (Update README.md)
+#### This project was my introduction to managing large datasets via APIs.
 ## How I Built This
 * **Language:** Python
 * **API:** Google Gmail API (REST)
