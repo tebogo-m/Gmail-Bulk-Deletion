@@ -1,3 +1,4 @@
+HEAD
 # Gmail-Cleanup-Tool
 <img width="192" height="145" alt="image" src="https://github.com/user-attachments/assets/9537b084-829a-4a64-b7e1-937f3d98e91c" />
 
@@ -30,3 +31,6 @@
 * Add a yes/no verification question before any of the emails could be deleted.
 * Included a .gitignore file to ensure my private API keys never get uploaded to GitHub.
 
+# Python Script to bulk delete emails from gmail account
+## This is a python script I created to delete over 18k emails from a gmail account. I used a method which interacts with the Gmail API via Google Cloud Console.
+4eec64e (Update README.md)
