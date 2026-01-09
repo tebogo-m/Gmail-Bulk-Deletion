@@ -19,9 +19,6 @@
 
 ## Logic Behind the Script
 #### The script follows a simple but effective logic:
-
-### The script follows a simple but effective logic:
- c569f2e (Update README.md)
 * **Authenticate:** Establish a secure connection to my Gmail account.
 * **Query:** Search for specific messages (e.g., label:inbox or category:promotions).
 * **Loop & Delete:** Collect IDs of the matching emails and send a "Batch Delete" request to delete them permanently.
@@ -29,8 +26,6 @@
 
 ## Security measures
 #### Since this script deletes data, I built it to:
-
-### Since this script deletes data, I built it to:
 * Print the count of emails found before starting the deletion.
 * Add a yes/no verification question before any of the emails could be deleted.
 * Included a .gitignore file to ensure my private API keys never get uploaded to GitHub.
