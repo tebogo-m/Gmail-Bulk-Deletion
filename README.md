@@ -1,4 +1,6 @@
 # Gmail-Cleanup-Tool
+<img width="192" height="145" alt="image" src="https://github.com/user-attachments/assets/9537b084-829a-4a64-b7e1-937f3d98e91c" />
+
 ## I wrote a Python script to automate the process of deleting 18k emails using the Gmail API.
 #### This project was my introduction to managing large datasets via APIs.
 ## How I Built This
@@ -9,7 +11,7 @@
 
 ## What I Learned
 #### Building this script taught me several "real-world" coding skills that I didn't get from tutorials:
-* **API Credentials & Security:** I learned how to set up a project in the Google Cloud Console, enable specific API scopes, and handle sensitive files like credentials.json and token.json using .gitignore.
+* **API Credentials & Security:** I learned how to set up a project in the Google Cloud Console, enable specific API scopes, and handle sensitive files like credentials.json and token.pickle using .gitignore.
 * **The OAuth2 Flow:** I implemented the logic to open a browser for login, generate a token, and refresh that token so the script stays authenticated.
 * **Testing:** I started off with sending myself some test emails and running the script to first delete those then proceeded to edit the script to bulk delete rest of the emails
 * **Batch Processing:** I researched and implemented a method to process messages in chunks to make the script more efficient.
