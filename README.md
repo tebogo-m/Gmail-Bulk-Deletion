@@ -8,7 +8,7 @@
 * **Goal:** Efficiently find and permanently delete 18k + targeted emails
 
 ## What I Learned
-### Building this script taught me several "real-world" coding skills that I didn't get from tutorials:
+#### Building this script taught me several "real-world" coding skills that I didn't get from tutorials:
 * **API Credentials & Security:** I learned how to set up a project in the Google Cloud Console, enable specific API scopes, and handle sensitive files like credentials.json and token.json using .gitignore.
 * **The OAuth2 Flow:** I implemented the logic to open a browser for login, generate a token, and refresh that token so the script stays authenticated.
 * **Testing:** I started off with sending myself some test emails and running the script to first delete those then proceeded to edit the script to bulk delete rest of the emails
