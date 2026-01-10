@@ -70,5 +70,5 @@ def bulk_delete_messages(user_query):
     print("\nTask complete. Your inbox should be much lighter!")
 
 if __name__ == '__main__':
-        user_query = 'label:inbox {category:promotions category:social category:updates01} older_than:1y -is:starred'
+        user_query = 'label:inbox {category:promotions category:social category:updates} older_than:1y -is:starred'
         bulk_delete_messages(user_query)
