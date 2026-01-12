@@ -1,7 +1,7 @@
 # Gmail-Cleanup-Tool
 <img width="192" height="145" alt="image" src="https://github.com/user-attachments/assets/9537b084-829a-4a64-b7e1-937f3d98e91c" />
 
-## A Python script I wrote to automate the process of deleting 18k emails using the Gmail API.
+## A [Python script](gmail_bulk_delete.py) I wrote to automate the process of deleting 18k emails using the Gmail API.
 #### This project was my introduction to managing datasets via APIs.
 ## How I Built This
 * **Language:** Python
