@@ -19,14 +19,8 @@
 
 ## Logic Behind the Script
 #### The script follows a simple but effective logic:
-* **Authenticate:** Establish a secure connection to my Gmail account.
-* **Query:** Search for specific messages (e.g., label:inbox or category:promotions).
-* **Loop & Delete:** Collect IDs of the matching emails and send a "Batch Delete" request to delete them permanently.
-* **Verify:** Print a confirmation of how many emails were successfully processed.
-
-## Security measures
-#### Since this script deletes data, I built it to:
-* Print the count of emails found before starting the deletion.
-* Add a yes/no verification question before any of the emails could be deleted.
-* In addition to the above, I also included a .gitignore file to ensure my private API keys never get uploaded to GitHub.
-
+* **Authentication:** Establish a secure connection to my Gmail account.
+* **Querying:** Search for specific messages (e.g., label:inbox or category:promotions).
+* **Looping & Deleting:** Collect IDs of the matching emails and send a "Batch Delete" request to delete them permanently.
+* **Security Verification:** Print a confirmation of how many emails would be deleted and require a yes/no verfication to initiate the deletion process.
+  <img width="1600" height="820" alt="image" src="https://github.com/user-attachments/assets/74b4b761-e4e9-4b25-a37a-9605e8a45ca7" />
