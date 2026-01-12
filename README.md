@@ -13,9 +13,9 @@
 #### Building this script taught me several "real-world" coding skills that I didn't get from tutorials:
 * **API Credentials & Security:** I learned how to set up a project in the Google Cloud Console, enable specific API scopes, and handle sensitive files like credentials.json and token.pickle using .gitignore.
 * **The OAuth2 Flow:** I implemented the logic to open a browser for login, generate a token, and refresh that token so the script stays authenticated.
-* **Testing:** I started off with sending myself some test emails and running the script to first delete those then proceeded to edit the script to bulk delete the rest of the emails
+* **Testing:** I started off by sending myself a test email and running a script to first delete the test email. I then proceeded to edit the script to bulk delete the rest of the emails.
 * **Batch Processing:** I researched and implemented a method to process messages in chunks to make the script more efficient.
-* **Error Handling:** I encountered an issue with the permissions granted to the Gmail API and had to find a work around that would give the API the required access to complete the process of deletion.
+* **Error Handling:** I had an issue where the API was returning a '403 Forbidden' error when trying to delete messages. I fixed this by updating the OAuth Scopes to allow full mail access and re-authenticating the script to generate a new token.
 
 ## Logic Behind the Script
 #### The script follows a simple but effective logic:
